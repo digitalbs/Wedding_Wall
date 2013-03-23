@@ -1,8 +1,5 @@
-'use strict';
-
-angular.module('WeddingWallApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.memories = [
+{
+    "posts":[
         {
             "comment": "You need to add that hash tag to all the will you be ny bridesmaids pics ... Huge album from beginning to end :)",
             "type":"instagram",
@@ -18,11 +15,11 @@ angular.module('WeddingWallApp')
             "picURL":"http://distilleryimage1.s3.amazonaws.com/22e6ad903dbf11e299e022000a1fb043_7.jpg"
         },
         {
-            "comment":"So excited!",
-            "type":"instagram",
-            "from":"margyv",
-            "dtCreated":"1354600777",
-            "picURL":"http://distilleryimage9.s3.amazonaws.com/ef63aed23dbe11e282b422000a1f9ab7_7.jpg"
+        "comment":"So excited!",
+        "type":"instagram",
+        "from":"margyv",
+        "dtCreated":"1354600777",
+        "picURL":"http://distilleryimage9.s3.amazonaws.com/ef63aed23dbe11e282b422000a1f9ab7_7.jpg"
         }
     ]
-  });
+}

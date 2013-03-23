@@ -2,9 +2,16 @@
     <h1>Alix &amp; Brian Wedding Wall</h1>
     <h3>A feed of Instagram, Facebook and Twitter</h3>
 </section>
-<section id="memories">
+<section id="memories" ng-controller="MainCtrl">
     <header>
-
+        <label>Search:</label> <input ng-model="query"/>
     </header>
+    <section id="posts">
+        <article class="post" ng-repeat="memory in memories | filter:query">
+            <h2>{{memory.from}} <span>brought to you by <img src="assets/logos/{{memory.type}}.png" class="instagram" alt="{{memory.type}}"/></span></h2>
+            <img src="{{memory.picURL}}" alt="{{memory.comment}}"/>
+            <p>{{memory.comment}}</p>
+        </article>
+    </section>
 </section>
 

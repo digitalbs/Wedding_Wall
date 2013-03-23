@@ -8,3 +8,54 @@
 h1{
     font-weight: normal;
 }
+
+/** Memories Header **/
+#memories header
+{
+    overflow: hidden;
+}
+#memories header label, #memories header input
+{
+    float:left;
+}
+
+#memories header input
+{
+    margin-left:10px;
+}
+
+/** Memories Article **/
+#memories article
+{
+    border-bottom:1px groove #999;
+    padding:2% 0;
+}
+
+#memories article:last-child
+{
+    border-bottom:none;
+}
+
+#memories article h2 span{
+    float:right;
+    font-size:0.5em;
+}
+
+#memories article h2 span img
+{
+    display: inline;
+}
+#memories article h2 span img.instagram{
+    width:50px;
+}
+
+
+#memories article p{
+    margin:0.5em 0;
+    text-align: left;
+}
+
+#memories article img
+{
+    width:100%;
+}
