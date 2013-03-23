@@ -1,0 +1,10 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+*
+{
+    font-family: "CaviarDreamsRegular", arial;
+    font-weight: normal;
+}
+
+h1{
+    font-weight: normal;
+}
